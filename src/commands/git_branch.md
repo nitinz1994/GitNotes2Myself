@@ -24,6 +24,9 @@ git branch -d unmergedBranch        # ERROR! Trying to delete a branch that has 
 git branch -D unmergedBranch        # Use -D switch to force delete a branch without merging.
 git branch -m oldname newname       # Use -m switch to rename a branch from oldname to newname.
 git branch -m newname               # Use -m switch WITHOUT oldname to rename the current branch.
+
+git branch -u origin/dev            # Make origin/dev as the upstream branch for the current checkedout branch.
+git branch -av                      # Show remote branches that no longer exists
 ```
 
 ### TODO

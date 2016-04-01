@@ -19,6 +19,7 @@ git remote -v           # -v also shows the URL
 git remot­e add origi­n git@g­ithub.com:­dilbert/tr­y_git.git   # Add a remote repository to git. The command git remote
                                                            # add takes 'remote name (origin)' and a repository URL
                                                            # (git@github.com:dilbert/try_git.git)
+git remote prune origin # Remove stale branches from local that no longer exists on the server.
 ```
 
 ### TODO
