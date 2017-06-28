@@ -10,12 +10,14 @@ git help merge
 
 ### Detailed Examples
 ```
-git help            # Shows a list of common git commands.
-git help -a         # Lists available subcommands
+git help            # Display help information about common git commands.
+git help -a         # Display help information about all git commands.
+git help <verb>     # Display help information about a particular git verb.
 
-git help <verb>     # Git help for a particular verb.
-git <verb> --help   # Alternate way for git help.
-man git-<verb>      # Alternate way for git help.
+git <verb> --help   # Alternate way for displaying help information about a particular git verb.
+man git-<verb>      # Alternate way for displaying help information about a particular git verb.
+
+git help glossary   # Display git glossary.
 ```
 
 ### TODO
